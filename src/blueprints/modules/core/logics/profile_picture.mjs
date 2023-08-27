@@ -13,5 +13,5 @@ export function profileImageLoaded(data) {
 * }
 */
 export function updateRadius(data) {
-    console.log('Image clicked')
+    data.component.states.setBorderRadius(Math.random()*50);
 }
