@@ -24,6 +24,7 @@ export function changeText(data) {
 */
 export function welcomeTextMounted(data) {
     // TODO: Implement the logic
+    console.log('welcome text started');
     // throw new Error('Method welcomeTextMounted not implemented');
 }
 
