@@ -1,0 +1,29 @@
+components:
+  base: text
+  modifier:
+    display: flex
+    color: '#fff'
+    backgroundColor: states.bgColor
+    padding: 16
+    fontSize: 24
+    borderRadius: 5
+    margin: 8
+    height: inputs.height
+    justifyContent: center
+    alignItems: center
+    maxWidth: logics.getMaxWidth
+    cursor: pointer
+    props:
+      children: states.text
+      onMouseMove: logics.detectMouseMove
+      onMouseEnter: logics.setBgIndigo
+      onMouseLeave: logics.setBgGreen
+      onClick: logics.changeText
+    states:
+      text: Welcome To Fast UI/UX
+      bgColor: green
+    effects:
+      onStart:
+        body: logics.welcomeTextMounted
+        watch:
+          - inputs.viewKey
