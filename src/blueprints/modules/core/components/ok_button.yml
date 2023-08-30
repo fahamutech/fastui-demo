@@ -1,0 +1,20 @@
+components:
+  base: rectangle
+  modifier:
+    style:
+      padding: 8
+      borderRadius: 8
+      fontSize: 16
+      cursor: pointer
+      color: white
+      maxWidth: 50
+      display: flex
+      justifyContent: center
+      alignItems: center
+      backgroundColor: states.btnColor
+      margin: 0
+    props:
+      onClick: logics.okButtonPressed
+      children: OK
+    states:
+      btnColor: green

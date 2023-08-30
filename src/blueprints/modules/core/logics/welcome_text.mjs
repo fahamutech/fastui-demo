@@ -13,35 +13,6 @@ export function detectMouseMove(data) {
 * {component: {states: *,inputs: *}, args: Array<*>}
 * }
 */
-export function changeText(data) {
-    // TODO: Implement the logic
-    data.component.states.setText('Changed from logic!!');
-}
-/**
-* @param data {
-* {component: {states: *,inputs: *}, args: Array<*>}
-* }
-*/
-export function welcomeTextMounted(data) {
-    // TODO: Implement the logic
-    console.log('welcome text started');
-    // throw new Error('Method welcomeTextMounted not implemented');
-}
-
-/**
-* @param data {
-* {component: {states: *,inputs: *}, args: Array<*>}
-* }
-*/
-export function getMaxWidth(data) {
-    // TODO: Implement the logic
-    return 300;
-}
-/**
-* @param data {
-* {component: {states: *,inputs: *}, args: Array<*>}
-* }
-*/
 export function setBgIndigo(data) {
     // TODO: Implement the logic
     data.component.states.setBgColor('indigo');
@@ -54,4 +25,32 @@ export function setBgIndigo(data) {
 export function setBgGreen(data) {
     // TODO: Implement the logic
     data.component.states.setBgColor('green');
+    // throw new Error('Method welcomeTextMounted not implemented');
+}
+/**
+* @param data {
+* {component: {states: *,inputs: *}, args: Array<*>}
+* }
+*/
+export function changeText(data) {
+    // TODO: Implement the logic
+    data.component.states.setText('Changed from logic!!');
+}
+/**
+* @param data {
+* {component: {states: *,inputs: *}, args: Array<*>}
+* }
+*/
+export function welcomeTextMounted(data) {
+    // TODO: Implement the logic
+
+}
+/**
+* @param data {
+* {component: {states: *,inputs: *}, args: Array<*>}
+* }
+*/
+export function getMaxWidth(data) {
+    // TODO: Implement the logic
+    return 300;
 }

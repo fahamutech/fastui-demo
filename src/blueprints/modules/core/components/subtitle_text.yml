@@ -1,0 +1,11 @@
+components:
+  base: text
+  modifier:
+    style:
+      display: block
+      fontSize: 16
+      paddingTop: 8
+      paddingBottom: 8
+    props:
+      children: This is the subtitle of the card
+    frame: column.start

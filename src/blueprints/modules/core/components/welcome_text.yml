@@ -1,18 +1,19 @@
 components:
   base: text
   modifier:
-    display: flex
-    color: '#fff'
-    backgroundColor: states.bgColor
-    padding: 16
-    fontSize: 24
-    borderRadius: 5
-    margin: 8
-    height: inputs.height
-    justifyContent: center
-    alignItems: center
-    maxWidth: logics.getMaxWidth
-    cursor: pointer
+    style:
+      display: flex
+      color: '#fff'
+      backgroundColor: states.bgColor
+      padding: 16
+      fontSize: 24
+      borderRadius: 5
+      margin: 8
+      height: inputs.height
+      justifyContent: center
+      alignItems: center
+      maxWidth: logics.getMaxWidth
+      cursor: pointer
     props:
       children: states.text
       onMouseMove: logics.detectMouseMove
