@@ -1,7 +1,7 @@
 components:
   base: text
   modifier:
-    style:
+    styles:
       display: flex
       color: '#fff'
       backgroundColor: states.bgColor

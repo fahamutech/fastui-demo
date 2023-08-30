@@ -7,13 +7,13 @@ import {TitleText} from "./modules/core/components/title_text.mjs";
 
 function App() {
     return (
-        <div id={'57654'}>
-            <ProfilePicture/>
-            <WelcomeText/>
-            <TitleText/>
-            <SubtitleText/>
-            <OkButton/>
-        </div>
+        <>
+            <ProfilePicture view={<span>FUCK</span>}/>
+            {/*<WelcomeText/>*/}
+            {/*<TitleText/>*/}
+            {/*<SubtitleText/>*/}
+            {/*<OkButton/>*/}
+        </>
     );
 }
 

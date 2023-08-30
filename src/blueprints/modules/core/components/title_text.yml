@@ -1,7 +1,7 @@
 components:
   base: text
   modifier:
-    style:
+    styles:
       display: block
       fontSize: 22
       padding: 8

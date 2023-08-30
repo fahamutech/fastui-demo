@@ -1,7 +1,8 @@
 components:
   base: text
   modifier:
-    style:
+    extend: ./title_text.yml
+    styles:
       display: block
       fontSize: 16
       paddingTop: 8

@@ -1,7 +1,8 @@
 components:
   base: rectangle
   modifier:
-    style:
+    extend: ./subtitle_text.yml
+    styles:
       padding: 8
       borderRadius: 8
       fontSize: 16
@@ -18,3 +19,4 @@ components:
       children: OK
     states:
       btnColor: green
+    frame: row.end
