@@ -33,6 +33,10 @@ export function getImageData(data) {
 export function getImageStyle(data) {
     return {
         width: 100,
+        marginLeft: 5,
+        marginRight: 5,
+        marginTop: 'auto',
+        marginBottom: 'auto',
         height: 100,
         borderRadius: data.component.states.borderRadius,
         backgroundColor: '#f5f5f5'

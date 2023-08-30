@@ -1,0 +1,11 @@
+components:
+  base: rectangle
+  modifier:
+    extend: ./profile_picture.yml
+    styles:
+      borderRadius: 10
+      margin: 10
+      maxWidth: 350
+      padding: 16
+      backgroundColor: '#2bd5c2'
+    frame: column.start.stack

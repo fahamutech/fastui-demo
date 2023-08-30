@@ -8,12 +8,11 @@ components:
       fontSize: 16
       cursor: pointer
       color: white
-      maxWidth: 50
       display: flex
       justifyContent: center
       alignItems: center
       backgroundColor: states.btnColor
-      margin: 0
+      marginLeft: 70%
     props:
       onClick: logics.okButtonPressed
       children: OK
