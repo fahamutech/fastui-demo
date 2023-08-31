@@ -12,10 +12,10 @@ components:
       justifyContent: center
       alignItems: center
       backgroundColor: states.btnColor
-      marginLeft: 70%
+      marginLeft: 60%
     props:
       onClick: logics.okButtonPressed
-      children: OK
+      children: SUBMIT
     states:
       btnColor: green
     frame: row.end
