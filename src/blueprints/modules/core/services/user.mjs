@@ -6,5 +6,11 @@ export const loginRemote = ({username, password}) => {
                 'Content-Type': 'application/json'
             }
         }
-    ).then(value => value.json());
+    ).then(async value => {
+        if (value.ok) {
+            return await value.json();
+        } else {
+            throw await value.json();
+        }
+    });
 }

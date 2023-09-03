@@ -8,4 +8,7 @@ component:
 #      display: flex
 #      justifyContent: center
 #      alignItems: center
-    frame: column.start.stack
+    frame:
+      base: column.start.stack
+      styles:
+        height: 100vh

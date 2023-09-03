@@ -6,6 +6,7 @@ import {
     subscribeLoginProgress
 } from "../../../states/login_form.mjs";
 import {loginRemote} from "../../../services/user.mjs";
+import {addLoginLog} from "../../../states/login_logs.mjs";
 
 /**
  * @param data {
@@ -28,9 +29,11 @@ export function handleSubmit(data) {
     }
     changeLoginProgress(true);
     loginRemote({username, password}).then(value => {
-        console.log(value);
+        // console.log(value,'DATA');
+        addLoginLog(value);
     }).catch(reason => {
-        console.log(reason);
+        // console.log(reason,'ERRR');
+        addLoginLog({id: 'N/A', username: 'Error', token: reason?.message});
     }).finally(() => {
         changeLoginProgress(false);
     });
