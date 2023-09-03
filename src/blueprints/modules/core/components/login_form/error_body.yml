@@ -1,6 +1,6 @@
 condition:
   modifier:
     extend: ./submit_button.yml
-    left: ./not_loading_view.yml
+#    left: ./not_loading_view.yml
     right: ./loading_view.yml
     frame: column.start

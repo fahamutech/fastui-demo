@@ -9,3 +9,4 @@ component:
       styles:
         height: 100vh
         maxWidth: 550
+        width: 100%
