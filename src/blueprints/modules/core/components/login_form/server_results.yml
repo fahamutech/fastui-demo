@@ -4,10 +4,11 @@ loop:
     styles:
       height: 100%
       marginTop: 24
-#      display: flex
-#      flexDirection: row
       overflow: scroll
     feed: ../log_element/server_result_element.yml
     props:
       onClick: logics.listContainerClicked
-    frame: column.start
+    frame:
+      base: column.start
+      styles:
+        alignItems: center

@@ -4,11 +4,8 @@ component:
     extend: ./error_body.yml
     styles:
       padding: 0 16px
-#      height: 100vh
-#      display: flex
-#      justifyContent: center
-#      alignItems: center
     frame:
       base: column.start.stack
       styles:
         height: 100vh
+        maxWidth: 550
