@@ -1,0 +1,17 @@
+components:
+  base: text
+  modifier:
+    styles:
+      color: '#000'
+      fontFamily: Inter
+      fontSize: 20
+      fontStyle: normal
+      fontWeight: 600
+      lineHeight: normal
+      marginBottom: 31
+      marginTop: 24
+      marginRight: auto
+      marginLeft: auto
+    props:
+      children: WELCOME AGAIN
+    frame: column.start

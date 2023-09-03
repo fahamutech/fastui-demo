@@ -1,0 +1,25 @@
+components:
+  base: rectangle
+  modifier:
+    extend: ./password_input_error.yml
+    styles:
+      height: 48
+      borderRadius: 8
+      background: '#0019FF'
+      width: 100%
+      color: white
+      display: flex
+      justifyContent: center
+      alignItems: center
+      fontSize: 18
+      fontFamily: Inter
+      cursor: pointer
+      marginBottom: 24
+    states:
+      text: LOGIN
+    effects:
+      onStart:
+        body: logics.onSubmittingEvent
+    props:
+      children: states.text
+      onClick: logics.handleSubmit

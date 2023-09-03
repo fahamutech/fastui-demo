@@ -1,0 +1,14 @@
+components:
+  base: text
+  modifier:
+    extend: ./username_input.yml
+    styles: logics.getStyle
+    states:
+      usernameError: ''
+      displayMode: 'block'
+    props:
+      children: states.usernameError
+    effects:
+      onStart:
+        body: listeningForError
+    frame: column.start

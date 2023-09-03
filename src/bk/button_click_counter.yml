@@ -1,0 +1,21 @@
+components:
+  base: text
+  modifier:
+    extend: ./subtitle_text.yml
+    states:
+      counter: 'Ok button clicked this times : 0'
+    effects:
+      onCounterChange:
+        body: logics.counterLister
+        watch:
+          - states.counter
+      onStart:
+        body: onMounted
+    styles:
+      color: grey
+      fontSize: 16
+      paddingTop: 4
+      paddingBottom: 16
+    props:
+      children: states.counter
+    frame: column.start

@@ -15,8 +15,12 @@ watch(join(__dirname, 'src', 'blueprints'), {recursive: true}, (event, filename)
     const file = `./src/blueprints/${filename}`;
     // const fileParts = file.split('/');//.filter(x => !x.includes('.yml'));
     // console.log(file);
-    const a = exec(`fastui specs build ${file}`, {
+    exec(`fastui specs build ${file}`, {
         cwd: __dirname
+    },(error, stdout, stderr) => {
+        // console.log(error);
+        // console.log(stderr);
+        // console.log(stdout);
     });
     // console.log(a.toString());
 });

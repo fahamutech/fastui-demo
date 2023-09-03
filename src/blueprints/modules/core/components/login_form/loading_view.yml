@@ -1,0 +1,14 @@
+component:
+  base: rectangle
+  modifier:
+    styles:
+      height: 40
+      backgroundColor: green
+      width: 100%
+      color: '#fff'
+      borderRadius: 5
+      justifyContent: center
+      alignItems: center
+      display: flex
+    props:
+      children: Loading

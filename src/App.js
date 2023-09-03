@@ -1,10 +1,11 @@
 import './App.css';
-import {ProfileCard} from "./modules/core/components/profile_card.mjs";
+import {LoginContainer} from "./modules/core/components/login_form/login_container.mjs";
 
 function App() {
     return (
         <>
-            <ProfileCard/>
+            {/*<ProfileCard/>*/}
+            <LoginContainer/>
             {/*<WelcomeText/>*/}
         </>
     );

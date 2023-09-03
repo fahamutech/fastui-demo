@@ -4,7 +4,6 @@ components:
     styles:
       display: block
       fontSize: 22
-      paddingTop: 8
     props:
       children: Hello There
     frame: column.start

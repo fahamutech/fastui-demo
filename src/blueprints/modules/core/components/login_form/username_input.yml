@@ -1,0 +1,17 @@
+components:
+  base: input
+  modifier:
+    extend: ./login_welcome_title.yml
+    styles: logics.getStyle
+    props:
+      type: text
+      value: states.username
+      onChange: logics.onTextChange
+      placeholder: Username
+    states:
+      username: ''
+      borderColor: '#0019FF'
+    effects:
+      hasError:
+        body: listeningForInputError
+    frame: column.start

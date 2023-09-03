@@ -8,4 +8,7 @@ components:
       maxWidth: 350
       padding: 16
       backgroundColor: '#c6c6c6'
+      display: flex
+      justifyContent: center
+      alignItem: center
     frame: column.start.stack

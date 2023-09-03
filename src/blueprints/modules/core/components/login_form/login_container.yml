@@ -1,0 +1,11 @@
+component:
+  base: rectangle
+  modifier:
+    extend: ./error_body.yml
+    styles:
+      padding: 0 16px
+#      height: 100vh
+#      display: flex
+#      justifyContent: center
+#      alignItems: center
+    frame: column.start.stack
