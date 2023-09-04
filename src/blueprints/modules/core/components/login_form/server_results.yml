@@ -2,12 +2,14 @@ loop:
   modifier:
     extend: ./login_container.yml
     styles:
-      height: 100%
+#      height: 100%
       marginTop: 24
       overflow: scroll
+#      height: 320
     feed: ../log_element/server_result_element.yml
     props:
       onClick: logics.listContainerClicked
+      id: logs_container
     frame:
       base: column.start
       styles:
