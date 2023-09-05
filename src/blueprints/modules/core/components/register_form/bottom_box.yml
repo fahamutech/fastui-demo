@@ -1,0 +1,13 @@
+component:
+  base: rectangle
+  modifier:
+    extend: ./reg_title.yml
+    styles:
+      height: 58
+      backgroundColor: red
+      borderRadius: 8
+      margin: 16
+    frame:
+      base: column.start
+      styles:
+        flexGrow: 1

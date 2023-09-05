@@ -1,0 +1,10 @@
+component:
+  base: text
+  modifier:
+    styles:
+      fontSize: 22
+      color: black
+      padding: 16
+    props:
+      children: Hello
+    frame: colum.start

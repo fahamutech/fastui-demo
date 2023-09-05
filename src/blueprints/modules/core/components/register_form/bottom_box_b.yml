@@ -1,0 +1,11 @@
+component:
+  base: rectangle
+  modifier:
+    extend: ./bottom_box.yml
+    styles:
+      height: 58
+      backgroundColor: red
+      borderRadius: 8
+      margin: 16
+    frame:
+      base: row.end
