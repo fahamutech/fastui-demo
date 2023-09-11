@@ -1,4 +1,3 @@
-import {profileCardState} from "../../blueprints/modules/core/services/profile_card_state.mjs";
 
 /**
 * @param data {
@@ -8,7 +7,6 @@ import {profileCardState} from "../../blueprints/modules/core/services/profile_c
 export function okButtonPressed(data) {
     // const prev = data.component.states.counter;
     // console.log(prev);
-    profileCardState.increment();
 }
 /**
 * @param data {

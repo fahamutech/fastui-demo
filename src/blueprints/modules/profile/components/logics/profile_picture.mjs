@@ -1,4 +1,4 @@
-import {profilePictureStyles} from "../../blueprints/modules/core/services/reusable_styles.mjs";
+import {profilePictureStyles} from "../../../core/services/reusable_styles.mjs";
 
 /**
 * @param data {
