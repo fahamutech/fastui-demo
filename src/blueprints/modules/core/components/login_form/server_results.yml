@@ -1,4 +1,3 @@
-$schema: "https://raw.githubusercontent.com/fahamutech/fastui/main/fastui.schema.json"
 loop:
   modifier:
     extend: ./login_container.yml

@@ -6,7 +6,7 @@ import {subscribeLoginLogs} from "../../../states/login_logs.mjs";
 * }
 */
 export function onStart(data) {
-    data.component.states.setData(['hello', 'world'])
+    // data.component.states.setData(['hello', 'world'])
     const subs = subscribeLoginLogs(values=>{
         // console.log(values,'VALUESSSS');
         // data.component.states.setData([]);

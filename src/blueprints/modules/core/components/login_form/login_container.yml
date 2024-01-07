@@ -1,7 +1,7 @@
 component:
   base: rectangle
   modifier:
-    extend: ./error_body.yml
+    extend: ./maybe_show_loading.yml
     styles:
       padding: 0 16px
     frame:
