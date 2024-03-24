@@ -1,0 +1,4 @@
+component:
+  base: rectangle
+  modifier:
+    extend: ./modules/core/components/login_form/server_results.yml

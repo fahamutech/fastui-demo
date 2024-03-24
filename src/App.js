@@ -1,12 +1,10 @@
-import './App.css';
-import {ServerResults} from "./modules/core/components/login_form/server_results.mjs";
 
-function App() {
+import {ProfileCard} from "./modules/profile/components/profile_card.mjs";
+
+export function App() {
     return (
         <>
-            {/*<ProfileCard/>*/}
-            <ServerResults/>
-            {/*<WelcomeText/>*/}
+            <ProfileCard/>
         </>
     );
 }
