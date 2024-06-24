@@ -1,0 +1,13 @@
+component:
+  base: rectangle
+  modifier:
+    props:
+      id: divider_line_container
+    styles:
+      marginRight: 0
+      backgroundColor: rgba(0,0,0,255)
+      height: 1
+    frame:
+      base: row.start
+      styles:
+        flexWrap: nowrap

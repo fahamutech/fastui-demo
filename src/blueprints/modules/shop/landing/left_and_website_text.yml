@@ -1,0 +1,27 @@
+component:
+  base: text
+  modifier:
+    extend: ./left_available_container.yml
+    styles:
+      fontFamily: Inter
+      fontPostScriptName: Inter-Medium
+      fontWeight: 500
+      textAutoResize: WIDTH_AND_HEIGHT
+      fontSize: 20
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP
+      letterSpacing: 0
+      lineHeightPx: 24.204544067382812
+      lineHeightPercent: 100
+      lineHeightUnit: INTRINSIC_%
+      marginBottom: 11
+      color: rgba(0,0,0,255)
+    props:
+      children: states.value
+      id: left_and_website_text
+    states:
+      value: and website
+    frame:
+      base: column.start
+      styles:
+        flexWrap: nowrap

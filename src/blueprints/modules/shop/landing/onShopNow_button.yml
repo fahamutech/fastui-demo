@@ -1,0 +1,18 @@
+condition:
+  modifier:
+    extend: ./bodyLeftTop_container.yml
+    props:
+      id: onShopNow_button
+      onClick: logics.onClick
+    left: ./shop_now_text.yml
+    frame:
+      base: column.start
+      styles:
+        spaceValue: 8
+        paddingLeft: 48
+        paddingRight: 48
+        paddingBottom: 16
+        flexWrap: nowrap
+        justifyContent: normal
+        alignItems: normal
+        cursor: pointer

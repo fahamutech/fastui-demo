@@ -5,3 +5,23 @@ body,html{
 textarea:focus, input:focus{
   outline: none;
 }
+
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* Hide Vertical Scrollbar on WebKit Browsers (Chrome, Safari, Opera) */
+*::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Hide Horizontal Scrollbar */
+*::-webkit-scrollbar:horizontal {
+  height: 0px;
+}
+
+/* Optional: Style Scrollbar Thumb if You Still Want It Visible */
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent black */
+}

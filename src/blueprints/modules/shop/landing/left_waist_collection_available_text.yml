@@ -1,0 +1,28 @@
+component:
+  base: text
+  modifier:
+    styles:
+      fontFamily: Inter
+      fontPostScriptName: Inter-MediumItalic
+      italic: true
+      fontWeight: 500
+      textAutoResize: HEIGHT
+      fontSize: 33
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP
+      letterSpacing: 0
+      lineHeightPx: 39.9375
+      lineHeightPercent: 100
+      lineHeightUnit: INTRINSIC_%
+      marginRight: 0
+      width: 176.595703125
+      color: rgba(0,0,0,255)
+    props:
+      children: states.value
+      id: left_waist_collection_available_text
+    states:
+      value: AVAILABLE
+    frame:
+      base: row.start
+      styles:
+        flexWrap: nowrap

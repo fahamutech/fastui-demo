@@ -1,0 +1,13 @@
+condition:
+  modifier:
+    extend: ./appbar_container.yml
+    props:
+      id: body_container
+    left: ./users_loop.yml
+    frame:
+      base: column.start
+      styles:
+        spaceValue: 0
+        flexWrap: nowrap
+        justifyContent: normal
+        alignItems: normal

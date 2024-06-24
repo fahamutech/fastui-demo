@@ -1,0 +1,14 @@
+condition:
+  modifier:
+    props:
+      id: onNewIn_button
+      onClick: logics.onClick
+    left: ./newIn_text.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 16
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: center
+        cursor: pointer

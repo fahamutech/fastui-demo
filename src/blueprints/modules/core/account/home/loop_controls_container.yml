@@ -1,0 +1,13 @@
+condition:
+  modifier:
+    extend: ./person_image.yml
+    props:
+      id: '''_''+loopIndex+''loop_controls_container'''
+    left: ./onPersonConnect_button.yml
+    frame:
+      base: column.start
+      styles:
+        spaceValue: 8
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: normal

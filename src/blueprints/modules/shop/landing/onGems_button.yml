@@ -1,0 +1,18 @@
+condition:
+  modifier:
+    extend: ./onCollection_button.yml
+    props:
+      id: onGems_button
+      onClick: logics.onClick
+    left: ./gems_text.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 16
+        paddingTop: 2
+        paddingBottom: 2
+        flexWrap: nowrap
+        justifyContent: space-between
+        alignItems: center
+        width: 46
+        cursor: pointer

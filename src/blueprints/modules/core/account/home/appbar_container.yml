@@ -1,0 +1,17 @@
+condition:
+  modifier:
+    props:
+      id: appbar_container
+    left: ./header_text.yml
+    frame:
+      base: column.start
+      styles:
+        spaceValue: 0
+        paddingLeft: 10
+        paddingRight: 10
+        paddingTop: 16
+        paddingBottom: 16
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: center
+        backgroundColor: rgba(0,0,0,255)

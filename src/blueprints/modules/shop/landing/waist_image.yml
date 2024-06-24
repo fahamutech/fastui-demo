@@ -1,0 +1,19 @@
+component:
+  base: image
+  modifier:
+    props:
+      id: waist_image
+      alt: waist_image
+      src: >-
+        inputs.loopElement.waist??'/images/figma/442ec8ed6e7f5998abcb5d0ecf1c5c86a4bdd401.png'
+    extend: ./waist_index_text.yml
+    styles:
+      marginBottom: 10
+      borderRadius: 8
+      backgroundColor: rgba(217.0000022649765,217.0000022649765,217.0000022649765,255)
+      width: 380
+      height: 613
+    frame:
+      base: column.start
+      styles:
+        flexWrap: nowrap

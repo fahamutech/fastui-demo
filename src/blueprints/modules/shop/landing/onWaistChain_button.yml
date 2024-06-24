@@ -1,0 +1,19 @@
+condition:
+  modifier:
+    extend: ./onGems_button.yml
+    props:
+      id: onWaistChain_button
+      onClick: logics.onClick
+    left: ./waist_chain_text.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 16
+        paddingLeft: 10
+        paddingRight: 10
+        paddingTop: 10
+        paddingBottom: 10
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: center
+        cursor: pointer

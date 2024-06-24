@@ -1,0 +1,16 @@
+component:
+  base: image
+  modifier:
+    props:
+      id: person_image
+      alt: person_image
+      src: >-
+        inputs.loopElement.person??'/images/figma/235d192e73ee23bdd667b2308a6527bb6b031409.png'
+    styles:
+      marginBottom: 8
+      borderRadius: 10
+      height: 200
+    frame:
+      base: column.start
+      styles:
+        flexWrap: nowrap

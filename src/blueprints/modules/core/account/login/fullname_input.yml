@@ -1,0 +1,33 @@
+component:
+  base: input
+  modifier:
+    extend: ./fullname_text.yml
+    styles:
+      marginBottom: 16
+      borderRadius: 6
+      borderTopWidth: 1
+      borderLeftWidth: 1
+      borderRightWidth: 1
+      borderBottomWidth: 1
+      borderColor: states.borderColor
+      borderStyle: solid
+      height: 48
+      fontSize: 15
+      padding: 0 8px
+    props:
+      type: states.inputType
+      value: states.value
+      onChange: logics.onTextChange
+      placeholder: Type here
+      id: fullname_input
+    effects:
+      onStart:
+        body: logics.onStart
+    states:
+      value: ''
+      inputType: text
+      borderColor: rgba(136.39843851327896,136.39843851327896,136.39843851327896,255)
+    frame:
+      base: column.start
+      styles:
+        flexWrap: nowrap

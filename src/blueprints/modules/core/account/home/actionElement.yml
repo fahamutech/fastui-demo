@@ -1,0 +1,16 @@
+condition:
+  modifier:
+    props:
+      id: '''_''+loopIndex+''actionElement'''
+    left: ./onActionElement_button.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 0
+        paddingLeft: 4
+        paddingRight: 4
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: center
+        borderRadius: 8
+        height: 83

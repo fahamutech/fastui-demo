@@ -1,0 +1,18 @@
+condition:
+  modifier:
+    extend: ./header_container.yml
+    props:
+      id: catalog_container
+    left: ./centered_catalog_container.yml
+    frame:
+      base: column.start
+      styles:
+        spaceValue: 0
+        paddingLeft: 10
+        paddingRight: 10
+        paddingTop: 8
+        paddingBottom: 8
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: center
+        height: 57

@@ -1,0 +1,28 @@
+component:
+  base: text
+  modifier:
+    extend: ./left_waist_collection_title_text.yml
+    styles:
+      fontFamily: Inter
+      fontPostScriptName: Inter-Italic
+      italic: true
+      fontWeight: 400
+      textAutoResize: WIDTH_AND_HEIGHT
+      fontSize: 33
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP
+      letterSpacing: 0
+      lineHeightPx: 39.9375
+      lineHeightPercent: 100
+      lineHeightUnit: INTRINSIC_%
+      marginBottom: 11
+      color: rgba(0,0,0,255)
+    props:
+      children: states.value
+      id: left_new_waist_collection_text
+    states:
+      value: NEW COLLECTION
+    frame:
+      base: column.start
+      styles:
+        flexWrap: nowrap

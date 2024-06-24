@@ -1,0 +1,18 @@
+condition:
+  modifier:
+    props:
+      id: '''_''+loopIndex+''onActionElement_button'''
+      onClick: logics.onClick
+    left: ./actionElement_image.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 0
+        paddingLeft: 4
+        paddingRight: 4
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: center
+        width: 97
+        height: 83
+        cursor: pointer

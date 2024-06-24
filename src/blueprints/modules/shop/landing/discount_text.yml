@@ -1,0 +1,26 @@
+component:
+  base: text
+  modifier:
+    styles:
+      fontFamily: Inter
+      fontPostScriptName: null
+      fontWeight: 400
+      textAutoResize: WIDTH_AND_HEIGHT
+      fontSize: 14
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP
+      letterSpacing: 0
+      lineHeightPx: 16.94318199157715
+      lineHeightPercent: 100
+      lineHeightUnit: INTRINSIC_%
+      marginRight: 10
+      color: rgba(255,255,255,255)
+    props:
+      children: states.value
+      id: discount_text
+    states:
+      value: get 20% discount on first purchase
+    frame:
+      base: row.start
+      styles:
+        flexWrap: nowrap

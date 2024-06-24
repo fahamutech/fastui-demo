@@ -1,0 +1,21 @@
+condition:
+  modifier:
+    extend: ./person_number_name_container.yml
+    props:
+      id: '''_''+loopIndex+''onPersonConnect_button'''
+      onClick: logics.onClick
+    left: ./connect_text.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 10
+        paddingLeft: 8
+        paddingRight: 8
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: center
+        borderRadius: 8
+        backgroundColor: rgba(0,0,0,255)
+        width: 90
+        height: 33
+        cursor: pointer

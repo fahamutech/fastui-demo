@@ -1,0 +1,26 @@
+component:
+  base: text
+  modifier:
+    styles:
+      fontFamily: Inter
+      fontPostScriptName: null
+      fontWeight: 400
+      textAutoResize: WIDTH_AND_HEIGHT
+      fontSize: 20
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP
+      letterSpacing: 0
+      lineHeightPx: 24.204544067382812
+      lineHeightPercent: 100
+      lineHeightUnit: INTRINSIC_%
+      marginBottom: 11
+      color: rgba(0,0,0,255)
+    props:
+      children: states.value
+      id: left_waist_collection_title_text
+    states:
+      value: WAIST COLLECTION
+    frame:
+      base: column.start
+      styles:
+        flexWrap: nowrap

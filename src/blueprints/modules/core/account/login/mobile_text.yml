@@ -1,0 +1,27 @@
+component:
+  base: text
+  modifier:
+    extend: ./fullname_input.yml
+    styles:
+      fontFamily: Inter
+      fontPostScriptName: Inter-Light
+      fontWeight: 300
+      textAutoResize: HEIGHT
+      fontSize: 14
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP
+      letterSpacing: 0
+      lineHeightPx: 16.94318199157715
+      lineHeightPercent: 100
+      lineHeightUnit: INTRINSIC_%
+      marginBottom: 16
+      color: rgba(13.27709935605526,13.27709935605526,13.27709935605526,255)
+    props:
+      children: states.value
+      id: mobile_text
+    states:
+      value: Password
+    frame:
+      base: column.start
+      styles:
+        flexWrap: nowrap

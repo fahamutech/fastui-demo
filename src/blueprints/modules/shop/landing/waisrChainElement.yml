@@ -1,0 +1,16 @@
+condition:
+  modifier:
+    props:
+      id: '''_''+loopIndex+''waisrChainElement'''
+    frame:
+      base: column.start
+      styles:
+        spaceValue: 10
+        paddingLeft: 10
+        paddingRight: 10
+        paddingTop: 10
+        paddingBottom: 10
+        flexWrap: nowrap
+        justifyContent: normal
+        alignItems: normal
+        width: 400

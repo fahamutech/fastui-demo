@@ -1,0 +1,15 @@
+condition:
+  modifier:
+    extend: ./onNewIn_button.yml
+    props:
+      id: onCollection_button
+      onClick: logics.onClick
+    left: ./collection_text.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 16
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: center
+        cursor: pointer

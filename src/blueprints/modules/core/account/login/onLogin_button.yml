@@ -1,0 +1,19 @@
+condition:
+  modifier:
+    extend: ./mobile_password.yml
+    props:
+      id: onLogin_button
+      onClick: logics.onClick
+    left: ./login_text.yml
+    frame:
+      base: column.start
+      styles:
+        spaceValue: 16
+        paddingTop: 16
+        paddingBottom: 16
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: center
+        borderRadius: 6
+        backgroundColor: rgba(0,0,0,255)
+        cursor: pointer

@@ -1,0 +1,13 @@
+condition:
+  modifier:
+    extend: ./left_new_waist_collection_text.yml
+    props:
+      id: left_available_container
+    left: ./left_waist_in_store_text.yml
+    frame:
+      base: column.start
+      styles:
+        spaceValue: 11
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: normal

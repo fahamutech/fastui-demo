@@ -1,0 +1,14 @@
+condition:
+  modifier:
+    props:
+      id: '''_''+loopIndex+''person_number_name_container'''
+    left: ./person_number_text.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 10
+        paddingTop: 10
+        paddingBottom: 10
+        flexWrap: nowrap
+        justifyContent: normal
+        alignItems: normal

@@ -1,0 +1,27 @@
+component:
+  base: text
+  modifier:
+    extend: ./left_waist_collection_text.yml
+    styles:
+      fontFamily: Inter
+      fontPostScriptName: Inter-Medium
+      fontWeight: 500
+      textAutoResize: WIDTH_AND_HEIGHT
+      fontSize: 21
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP
+      letterSpacing: 0
+      lineHeightPx: 25.414772033691406
+      lineHeightPercent: 100
+      lineHeightUnit: INTRINSIC_%
+      marginRight: 0
+      color: rgba(0,0,0,255)
+    props:
+      children: states.value
+      id: left_in_store_text
+    states:
+      value: in stores
+    frame:
+      base: row.start
+      styles:
+        flexWrap: nowrap

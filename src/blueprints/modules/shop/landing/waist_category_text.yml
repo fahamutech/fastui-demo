@@ -1,0 +1,28 @@
+component:
+  base: text
+  modifier:
+    extend: ./waist_name_text.yml
+    styles:
+      fontFamily: Inter
+      fontPostScriptName: Inter-LightItalic
+      italic: true
+      fontWeight: 300
+      textAutoResize: WIDTH_AND_HEIGHT
+      fontSize: 14
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP
+      letterSpacing: 0
+      lineHeightPx: 16.94318199157715
+      lineHeightPercent: 100
+      lineHeightUnit: INTRINSIC_%
+      marginBottom: 10
+      color: rgba(0,0,0,255)
+    props:
+      children: inputs.loopElement.waist_category??value
+      id: waist_category_text
+    states:
+      value: Ring set
+    frame:
+      base: column.start
+      styles:
+        flexWrap: nowrap

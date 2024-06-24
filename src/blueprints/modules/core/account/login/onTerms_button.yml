@@ -1,0 +1,15 @@
+condition:
+  modifier:
+    extend: ./by_continue_text.yml
+    props:
+      id: onTerms_button
+      onClick: logics.onClick
+    left: ./terms_text.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 8
+        flexWrap: nowrap
+        justifyContent: normal
+        alignItems: center
+        cursor: pointer

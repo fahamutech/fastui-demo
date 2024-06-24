@@ -1,0 +1,21 @@
+condition:
+  modifier:
+    props:
+      id: onProfileImage_button
+      onClick: logics.onClick
+    left: ./profile_image.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 0
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: center
+        borderRadius: 50
+        borderTopWidth: 1
+        borderLeftWidth: 1
+        borderRightWidth: 1
+        borderBottomWidth: 1
+        borderColor: rgba(0,0,0,255)
+        borderStyle: solid
+        cursor: pointer

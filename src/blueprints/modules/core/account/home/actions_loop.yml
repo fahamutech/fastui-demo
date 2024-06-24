@@ -1,0 +1,21 @@
+loop:
+  modifier:
+    extend: ./body_container.yml
+    styles:
+      display: flex
+      flexDirection: row
+      flexWrap: nowrap
+      justifyContent: normal
+      alignItems: center
+      overflow: scroll
+    props:
+      id: actions_loop
+    feed: ./onActionElement_button.yml
+    frame:
+      base: column.start
+      styles:
+        spaceValue: 0
+        paddingBottom: 24
+        flexWrap: nowrap
+        justifyContent: center
+        alignItems: normal

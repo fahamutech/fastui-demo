@@ -1,0 +1,27 @@
+component:
+  base: text
+  modifier:
+    extend: ./waist_category_text.yml
+    styles:
+      fontFamily: Inter
+      fontPostScriptName: Inter-SemiBold
+      fontWeight: 600
+      textAutoResize: WIDTH_AND_HEIGHT
+      fontSize: 16
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP
+      letterSpacing: 0
+      lineHeightPx: 19.363636016845703
+      lineHeightPercent: 100
+      lineHeightUnit: INTRINSIC_%
+      marginBottom: 10
+      color: rgba(0,0,0,255)
+    props:
+      children: inputs.loopElement.waist_price??value
+      id: waist_price_text
+    states:
+      value: TZS 8,000 - 20,000
+    frame:
+      base: column.start
+      styles:
+        flexWrap: nowrap

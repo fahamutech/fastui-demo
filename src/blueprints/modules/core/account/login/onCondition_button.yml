@@ -1,0 +1,15 @@
+condition:
+  modifier:
+    extend: ./and_text.yml
+    props:
+      id: onCondition_button
+      onClick: logics.onClick
+    left: ./condition_text.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 8
+        flexWrap: nowrap
+        justifyContent: normal
+        alignItems: center
+        cursor: pointer

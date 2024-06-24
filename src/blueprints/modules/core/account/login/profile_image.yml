@@ -1,0 +1,17 @@
+component:
+  base: image
+  modifier:
+    props:
+      id: profile_image
+      alt: profile_image
+      src: /images/figma/59c4e911c84d63c8558e2ebc003b6970b3b1d649.png
+    styles:
+      marginRight: 0
+      borderRadius: 50
+      backgroundColor: rgba(217.0000022649765,217.0000022649765,217.0000022649765,255)
+      width: 150
+      height: 150
+    frame:
+      base: row.start
+      styles:
+        flexWrap: nowrap

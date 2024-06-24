@@ -1,0 +1,17 @@
+condition:
+  modifier:
+    extend: ./bodyLeft_container.yml
+    props:
+      id: bodyRight_container
+    left: ./waistChain_loop.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 10
+        paddingLeft: 10
+        paddingRight: 10
+        paddingTop: 10
+        paddingBottom: 10
+        flexWrap: nowrap
+        justifyContent: normal
+        alignItems: normal

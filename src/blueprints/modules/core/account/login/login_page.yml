@@ -1,0 +1,10 @@
+condition:
+  modifier:
+    props:
+      id: login_page
+    left: ./body_container.yml
+    frame:
+      base: column.start.stack
+      styles:
+        minHeight: 100vh
+        backgroundColor: rgba(255,255,255,255)

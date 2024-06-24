@@ -1,0 +1,17 @@
+condition:
+  modifier:
+    props:
+      id: '''_''+loopIndex+''waistChainElement'''
+    left: ./waist_price_text.yml
+    frame:
+      base: row.start
+      styles:
+        spaceValue: 10
+        paddingLeft: 10
+        paddingRight: 10
+        paddingTop: 10
+        paddingBottom: 10
+        flexWrap: nowrap
+        justifyContent: normal
+        alignItems: normal
+        width: 400
